@@ -28,23 +28,20 @@
 }
 
 h2 {
-  font-size: 4.1rem;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: 5.8rem;
   color: #596c72;
 }
 
 h3 {
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 3rem;
   color: #596c72;
 }
 
 h4 {
   font-size: 1.8rem;
   font-weight: 600;
-  line-height: 2.2rem;
   color: #596c72;
 }
 
@@ -52,7 +49,6 @@ h5 {
   font-family: Montserrat;
   font-size: 1rem;
   font-weight: 500;
-  line-height: 1.25rem;
   color: #353535;
 }
 
@@ -60,7 +56,6 @@ button {
   font-family: Mulish;
   font-size: 1rem;
   font-weight: 700;
-  line-height: 1.25rem;
   color: #353535;
 }
 
@@ -68,7 +63,6 @@ a {
   font-family: Montserrat;
   font-size: 1.16rem;
   font-weight: 400;
-  line-height: 1.41rem;
   color: #353535;
 }
 
@@ -76,27 +70,76 @@ p {
   font-family: Mulish;
   font-size: 1.16rem;
   font-weight: 400;
-  line-height: 1.75rem;
   color: #353535;
 }
 
-.navbar .container {
-  height: 3.33rem;
+.navup .container {
   background-color: #FFC01F;
+  height: 3rem;
 }
-.navbar .container .row .row1 {
-  height: 3.33rem;
+.navup .container .row {
   display: flex;
+  height: 3rem;
   align-items: center;
   justify-content: space-between;
 }
-.navbar .container .row .row1 .icons {
+.navup .container .row .icons {
   display: flex;
-  gap: 10px;
+  gap: 1rem;
 }
-.navbar .container .row .row2 {
+
+.navdown .container {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(121, 121, 106, 0.129);
+}
+.navdown .container .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 10rem;
+}
+.navdown .container .row .links {
+  display: flex;
+  gap: 3.5rem;
+}
+
+.agir .container .row {
+  display: flex;
+  margin-top: 5rem;
+}
+.agir .container .row .col1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+.agir .container .row .col1 p {
+  width: 37rem;
+}
+.agir .container .row .col1 button {
+  text-align: left;
+  border: 1px solid #353535;
+  border-radius: 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem 4rem;
+}
+.agir .container .row .col1 button:hover {
+  background-color: green;
+  color: white;
+}
+.agir .container .row .col2 {
+  width: 50%;
+}
+.agir .container .row .col2 img {
+  width: 90%;
+  height: 90%;
+}
+.agir .container .col3 {
+  position: relative;
+  top: -50rem;
+  z-index: -1;
 }/*# sourceMappingURL=style.css.map */

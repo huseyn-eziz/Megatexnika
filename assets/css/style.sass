@@ -25,66 +25,100 @@
     margin: 0 auto
 
 h2
-    font-size: 4.1rem
+    font-size: 4rem
     font-weight: 700
-    line-height: 5.8rem
     color: #596c72
 
 h3
     font-size: 2.5rem
     font-weight: 700
-    line-height: 3rem
     color: #596c72
 
 h4
     font-size: 1.8rem
     font-weight: 600
-    line-height: 2.2rem
     color: #596c72
 
 h5
     font-family: Montserrat
     font-size: 1rem
     font-weight: 500
-    line-height: 1.25rem
     color: #353535
 
 button
     font-family: Mulish
     font-size: 1rem
     font-weight: 700
-    line-height: 1.25rem
     color: #353535
 
 a
     font-family: Montserrat
     font-size: 1.16rem
     font-weight: 400
-    line-height: 1.41rem
     color: #353535
 
 p
     font-family: Mulish
     font-size: 1.16rem
     font-weight: 400
-    line-height: 1.75rem
     color: #353535
 
-.navbar
+.navup
     .container
-        height: 3.33rem
         background-color: #FFC01F
+        height: 3rem
         .row
-            .row1
-                height: 3.33rem
+            display: flex
+            height: 3rem
+            align-items: center
+            justify-content: space-between
+            .icons
                 display: flex
-                align-items: center
-                justify-content: space-between
-                .icons
-                    display: flex
-                    gap: 10px
-            .row2
+                gap: 1rem
+.navdown
+    .container
+        position: relative
+        z-index: 1
+        background-color: #fff
+        border-bottom: 1px solid rgba(121, 121, 106, 0.129)
+        .row
+            display: flex
+            justify-content: space-between
+            align-items: center
+            height: 10rem
+            .links
                 display: flex
-                justify-content: space-between
-                align-items: center
-                height: 10rem
+                gap: 3.5rem
+
+.agir
+    .container
+        .row
+            display: flex
+            margin-top: 5rem
+            .col1
+                width: 50%
+                display: flex
+                flex-direction: column
+                gap: 2rem
+                justify-content: center
+                p
+                    width: 37rem
+                button
+                    text-align: left
+                    border: 1px solid #353535
+                    border-radius: 2rem
+                    width: fit-content
+                    padding: 1rem 4rem
+                button:hover
+                    background-color: green
+                    color: white
+            .col2
+                width: 50%
+                img
+                    width: 90%
+                    height: 90%
+        .col3
+            position: relative
+            top: -50rem
+            z-index: -1
+
