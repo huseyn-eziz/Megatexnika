@@ -105,6 +105,9 @@ p {
   gap: 3.5rem;
 }
 
+.agir .container {
+  position: relative;
+}
 .agir .container .row {
   display: flex;
   margin-top: 5rem;
@@ -136,10 +139,45 @@ p {
 }
 .agir .container .row .col2 img {
   width: 90%;
-  height: 90%;
+  height: 100%;
 }
 .agir .container .col3 {
+  position: absolute;
+  top: -30rem;
+  z-index: -1;
+}
+
+.category {
+  margin-top: 6rem;
+}
+.category .container {
   position: relative;
-  top: -50rem;
+  display: flex;
+  flex-direction: column;
+}
+.category .container .row {
+  display: flex;
+  margin: 0 0 6rem 5rem;
+  gap: 4rem;
+}
+.category .container .row .card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 25px 1px rgb(121, 121, 106);
+}
+.category .container .row .card img {
+  width: 100%;
+}
+.category .container .row .card h4 {
+  padding: 3rem 0;
+}
+.category .container .img {
+  position: absolute;
+  top: -2rem;
+  left: -3rem;
   z-index: -1;
 }/*# sourceMappingURL=style.css.map */
