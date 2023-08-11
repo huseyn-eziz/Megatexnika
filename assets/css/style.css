@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: calc(8px + 0.4vw);
+  font-family: Montserrat;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+@font-face {
+  font-family: Monserrat;
+  src: url(../fonts/montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Mulish;
+  src: url(../fonts/mulish/static/Mulish-Regular.ttf);
+}
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.row {
+  max-width: 92rem;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 4.1rem;
+  font-weight: 700;
+  line-height: 5.8rem;
+  color: #596c72;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: #596c72;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+  color: #596c72;
+}
+
+h5 {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: #353535;
+}
+
+button {
+  font-family: Mulish;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  color: #353535;
+}
+
+a {
+  font-family: Montserrat;
+  font-size: 1.16rem;
+  font-weight: 400;
+  line-height: 1.41rem;
+  color: #353535;
+}
+
+p {
+  font-family: Mulish;
+  font-size: 1.16rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  color: #353535;
+}
+
+.navbar .container {
+  height: 3.33rem;
+  background-color: #FFC01F;
+}
+.navbar .container .row .row1 {
+  height: 3.33rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .container .row .row1 .icons {
+  display: flex;
+  gap: 10px;
+}
+.navbar .container .row .row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+}/*# sourceMappingURL=style.css.map */
