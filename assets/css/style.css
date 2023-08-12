@@ -180,4 +180,33 @@ p {
   top: -2rem;
   left: -3rem;
   z-index: -1;
+}
+
+.mega .container .row {
+  display: flex;
+  position: relative;
+}
+.mega .container .row .col1 {
+  width: 40%;
+}
+.mega .container .row .col1 .img {
+  position: relative;
+  left: -1rem;
+}
+.mega .container .row .col1 .img1 {
+  position: absolute;
+  top: 15.5rem;
+  left: 3.5rem;
+  z-index: 1;
+  border: 1px solid white;
+  background-color: #fff;
+  padding: 1rem;
+  width: 30rem;
+  height: 45rem;
+}
+.mega .container .row .col2 {
+  width: 60%;
+}
+.mega .container .row .col2 img {
+  width: 90%;
 }/*# sourceMappingURL=style.css.map */
