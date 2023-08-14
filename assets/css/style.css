@@ -5,8 +5,6 @@
   font-family: Montserrat;
   box-sizing: border-box;
   text-decoration: none;
-  border: none;
-  outline: none;
 }
 
 @font-face {
@@ -18,17 +16,12 @@
   src: url(../fonts/mulish/static/Mulish-Regular.ttf);
 }
 .container {
-  max-width: 100rem;
-  margin: 0 auto;
-}
-
-.row {
-  max-width: 92rem;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 3.8rem;
   font-weight: 700;
   color: #596c72;
 }
@@ -68,61 +61,28 @@ a {
 
 p {
   font-family: Mulish;
-  font-size: 1.16rem;
+  font-size: 1.1rem;
   font-weight: 400;
   color: #353535;
 }
 
-.navup .container {
+.navhead {
+  max-width: 1350px;
   background-color: #FFC01F;
-  height: 3rem;
-}
-.navup .container .row {
-  display: flex;
-  height: 3rem;
-  align-items: center;
-  justify-content: space-between;
-}
-.navup .container .row .icons {
-  display: flex;
-  gap: 1rem;
 }
 
-.navdown .container {
-  position: relative;
-  z-index: 1;
-  background-color: #fff;
-  border-bottom: 1px solid rgba(121, 121, 106, 0.129);
-}
-.navdown .container .row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 10rem;
-}
-.navdown .container .row .links {
-  display: flex;
-  gap: 3.5rem;
+.nav-item {
+  padding-left: 2rem;
 }
 
-.agir .container {
-  position: relative;
+.nav-link:hover {
+  transform: translateY(-1rem);
 }
-.agir .container .row {
-  display: flex;
-  margin-top: 5rem;
-}
-.agir .container .row .col1 {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-content: center;
-}
-.agir .container .row .col1 p {
+
+.agir .container .row .col-6 p {
   width: 37rem;
 }
-.agir .container .row .col1 button {
+.agir .container .row .col-6 button {
   text-align: left;
   border: 1px solid #353535;
   border-radius: 2rem;
@@ -130,83 +90,69 @@ p {
   width: fit-content;
   padding: 1rem 4rem;
 }
-.agir .container .row .col1 button:hover {
+.agir .container .row .col-6 button:hover {
   background-color: green;
   color: white;
 }
-.agir .container .row .col2 {
-  width: 50%;
-}
-.agir .container .row .col2 img {
-  width: 90%;
-  height: 100%;
-}
-.agir .container .col3 {
-  position: absolute;
-  top: -30rem;
-  z-index: -1;
-}
 
-.category {
-  margin-top: 6rem;
-}
-.category .container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-.category .container .row {
-  display: flex;
-  margin: 0 0 6rem 5rem;
-  gap: 4rem;
-}
 .category .container .row .card {
   background-color: #fff;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  width: 20%;
-  border-radius: 1rem;
-  box-shadow: 1px 1px 25px 1px rgb(121, 121, 106);
+  border-radius: 0.4rem;
+  box-shadow: 0px 0px 15px rgba(160, 160, 149, 0.1921568627);
 }
 .category .container .row .card img {
-  width: 100%;
+  width: 80%;
+  padding-block: 1rem;
 }
-.category .container .row .card h4 {
-  padding: 3rem 0;
+.category .container .row .card .card-body .card-title {
+  padding-top: 2rem;
 }
-.category .container .img {
-  position: absolute;
-  top: -2rem;
-  left: -3rem;
-  z-index: -1;
+.category .container .row .card:hover {
+  transform: scale(1.1);
 }
 
-.mega .container .row {
-  display: flex;
-  position: relative;
-}
 .mega .container .row .col1 {
   width: 40%;
 }
-.mega .container .row .col1 .img {
-  position: relative;
-  left: -1rem;
-}
 .mega .container .row .col1 .img1 {
-  position: absolute;
-  top: 15.5rem;
-  left: 3.5rem;
+  position: relative;
+  top: 20.5rem;
+  left: 4.5rem;
   z-index: 1;
   border: 1px solid white;
   background-color: #fff;
   padding: 1rem;
-  width: 30rem;
-  height: 45rem;
+  width: 70%;
+  height: 67%;
 }
-.mega .container .row .col2 {
+.mega .container .row .second {
   width: 60%;
 }
-.mega .container .row .col2 img {
+.mega .container .row .second img {
   width: 90%;
+  height: 60%;
+}
+.mega .container .row .second .secondwords {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding-left: 4rem;
+  padding-top: 3rem;
+  width: 95%;
+}
+.mega .container .row .second .secondwords p {
+  width: 85%;
+}
+.mega .container .row .second .secondwords button {
+  text-align: left;
+  border: 1px solid #353535;
+  border-radius: 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem 4rem;
+}
+.mega .container .row .second .secondwords button:hover {
+  background-color: green;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
