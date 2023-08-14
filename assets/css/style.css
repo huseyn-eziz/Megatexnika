@@ -83,7 +83,6 @@ p {
   width: 37rem;
 }
 .agir .container .row .col-6 button {
-  text-align: left;
   border: 1px solid #353535;
   border-radius: 2rem;
   width: -moz-fit-content;
@@ -155,4 +154,13 @@ p {
 .mega .container .row .second .secondwords button:hover {
   background-color: green;
   color: white;
+}
+
+.texnikalar .container .row .btn {
+  border: 1px solid #353535;
+  border-radius: 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem 5rem;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
