@@ -170,4 +170,26 @@ p {
   width: fit-content;
   padding: 1rem 5rem;
   font-weight: bold;
+}
+
+.contact {
+  margin-top: 15rem;
+}
+.contact .input {
+  gap: 1rem;
+  border-radius: 20rem;
+}
+.contact .input input::-moz-placeholder {
+  padding: 1rem;
+}
+.contact .input input::placeholder {
+  padding: 1rem;
+}
+.contact .input button {
+  width: 100%;
+  border-radius: 2rem;
+}
+.contact .col-7 img {
+  position: relative;
+  top: -10rem;
 }/*# sourceMappingURL=style.css.map */
